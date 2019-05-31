@@ -1,3 +1,17 @@
+# Making the Implementation Simple 
+## first step is download the datasets from the links given below and keep them in respective locations as specified 
+Download the file below and paste it in the main directory 
+http://www.robots.ox.ac.uk/~lav/Research/Projects/2009bbenfold_headpose/Datasets/TownCentre-groundtruth.top
+
+Download the below .avi, and paste it inside 'experimenting-with-sort-master\test'
+http://www.robots.ox.ac.uk/~lav/Research/Projects/2009bbenfold_headpose/Datasets/TownCentreXVID.avi
+
+Now, i have included a script named frameExtractor.py in 'test' folder to extract the frame from the video. 
+## Run the script 'frameExtractor.py'
+
+## Now simply run main.py 
+
+
 # Experimenting with SORT
 Experimenting with [**sort**](https://github.com/abewley/sort) different classical tracking algorithms for realtime multiple object tracking (MOT).
 
