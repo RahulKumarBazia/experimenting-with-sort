@@ -52,7 +52,7 @@ def main():
             detections = detector.get_detected_items(frame)
 
             total_frames +=1
-            fn = 'test/Pictures%d.jpg' % (frame + 1)  # video frames are extracted to 'test/Pictures%d.jpg' with ffmpeg
+            fn = 'test/frame%d.jpg' % (frame + 1)  # video frames are extracted to 'test/Pictures%d.jpg' with ffmpeg
             img = io.imread(fn)
             if (display):
                 ax1 = fig.add_subplot(111, aspect='equal')
